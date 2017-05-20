@@ -237,3 +237,78 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 980px) {
+  #masthead {
+    background-color: deeppink;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #masthead {
+    background-color: yellowgreen;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+      #masthead {
+        position: static;
+        background-color: blueviolet;
+
+      }
+
+      nav {
+        float: left;
+        margin-top: 25px;
+      }
+
+      nav a {
+        text-align: center;
+      }
+
+      /*my name*/
+      #logo {
+        float: left;
+        width: 100%;
+      }
+
+
+
+      /*main*/
+      #main-container {
+        padding-top: 1px;
+      }
+
+      .main-section {
+        float: left;
+        width: 100%;
+        max-width: 640px;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #fff;
+        border: 1px solid #ddd;
+      }
+
+      /*sidebar*/
+      .sidebar {
+        float: left;
+        width: 100%;
+        max-width: 640px;
+        margin: 20px;
+      }
+
+      .auth-image {
+        width:100%;
+        max-width:600px;
+        margin: 0 0 40px;
+      }
+
+
+
+}
+
+/**having a hard time with everything except the logo**/
+/*Cannot get the nav bar to center*/
+/*Cannot get a space below the cat - yet - done*/
