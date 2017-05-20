@@ -242,10 +242,10 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
-  
 
   #masthead {
     position: static;
+    float: left;
     margin: 0px;
   }
 
@@ -262,6 +262,7 @@ input[type=submit] {
 
   .sidebar {
     float: left;
+    margin-right: auto ;
   }
 
   #main-container {
@@ -271,8 +272,8 @@ input[type=submit] {
   .main-section {
     float: left;
     max-width: 50%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 90px;
   }
 
   /*img*/
