@@ -102,7 +102,6 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
   color: #ccc;
   text-align: center;
   background: #666;
@@ -237,36 +236,140 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+
+
 @media screen and (max-width: 980px) {
+  
+
   #masthead {
-    background-color: deeppink;
-    text-align: left;
+    position: static;
+    margin: 0px;
   }
+
+  nav {
+    float: right;
+    width: 33.33%;
+    margin: 20px;
+    display: table;
+  }
+
+  nav a {
+    display: table-cell;
+  }
+
+  .sidebar {
+    float: left;
+  }
+
+  #main-container {
+    padding-top: 20px;
+  }
+
+  .main-section {
+    float: left;
+    max-width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /*img*/
+  .auth-image {
+    width:100%;
+    max-width:100%;
+    padding: 20px;
+  }
+
+  .work img {
+    max-width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  }
+
 }
 
 
 @media screen and (max-width: 768px) {
   #masthead {
-    background-color: yellowgreen;
+    position: static;
+    margin: 0px;
   }
+
+  nav {
+    float: right;
+    width: 33.33%;
+    margin: 20px;
+    display: table;
+  }
+
+  nav a {
+    display: table-cell;
+  }
+
+  #main-container {
+    padding-top: 20px;
+  }
+
+  .main-section {
+    float: left;
+    max-width: 728px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  /*sidebar*/
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 728px;
+    margin-left: 20px;
+  }
+
+  /*img*/
+  .auth-image {
+    width:100%;
+    max-width:50%;
+    margin: 0 20 40px;
+  }
+
+  .work img {
+    max-width: 100%;
+  }
+
+  .work {
+    width: 45%;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+
+/*cannot get the portfolio images to move equally on the page*/
 }
 
 @media screen and (max-width: 640px) {
 
       #masthead {
         position: static;
-        background-color: blueviolet;
         margin: 0px;
-
       }
 
       nav {
         float: left;
-        margin-top: 25px;
+        width:100%;
+        margin: 20px;
+        display: table;
       }
 
       nav a {
+        display: table-cell;
+        vertical-align: middle;
         text-align: center;
+
       }
 
       /*my name*/
@@ -277,22 +380,24 @@ input[type=submit] {
 
       /*main*/
       #main-container {
-        padding-top: 1px;
+        padding-top: 20px;
       }
 
       .main-section {
         float: left;
         width: 100%;
-        max-width: 640px;
+        max-width: 600px;
+        margin-left: 20px;
       }
 
       /*sidebar*/
       .sidebar {
         float: left;
         width: 100%;
-        max-width: 640px;
-
+        max-width: 600px;
+        margin-left: 20px;
       }
+
       /*img*/
       .auth-image {
         width:100%;
@@ -300,7 +405,18 @@ input[type=submit] {
         margin: 0 0 40px;
       }
 
+      .work img {
+        width: 100%;
+        max-width:600px;
+        margin: 0 0 40px;
+      }
 
+      .work {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 0 0 40px;
+      }
 
 }
 
