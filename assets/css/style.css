@@ -256,6 +256,7 @@ input[type=submit] {
       #masthead {
         position: static;
         background-color: blueviolet;
+        margin: 0px;
 
       }
 
@@ -274,8 +275,6 @@ input[type=submit] {
         width: 100%;
       }
 
-
-
       /*main*/
       #main-container {
         padding-top: 1px;
@@ -285,10 +284,6 @@ input[type=submit] {
         float: left;
         width: 100%;
         max-width: 640px;
-        padding: 30px;
-        margin: 0 0 40px;
-        background: #fff;
-        border: 1px solid #ddd;
       }
 
       /*sidebar*/
@@ -296,9 +291,9 @@ input[type=submit] {
         float: left;
         width: 100%;
         max-width: 640px;
-        margin: 20px;
-      }
 
+      }
+      /*img*/
       .auth-image {
         width:100%;
         max-width:600px;
@@ -312,3 +307,4 @@ input[type=submit] {
 /**having a hard time with everything except the logo**/
 /*Cannot get the nav bar to center*/
 /*Cannot get a space below the cat - yet - done*/
+/*margins are killing me - still having trouble with centering nav bar*/
