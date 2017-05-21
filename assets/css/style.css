@@ -244,9 +244,9 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
 
   #masthead {
-    position: static;
-    float: left;
-    margin: 0px;
+     position: static;
+     float: left;
+     margin: 0px;
   }
 
   nav {
@@ -254,11 +254,6 @@ input[type=submit] {
     width: 33.33%;
     margin-top: 25px;
     display: table;
-
-  }
-
-  nav a {
-
   }
 
   .sidebar {
